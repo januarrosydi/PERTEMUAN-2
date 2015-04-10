@@ -1,2 +1,2 @@
 # PERTEMUAN-2
-AAAAA
+penjumlahan bilangan random
