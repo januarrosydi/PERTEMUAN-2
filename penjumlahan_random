@@ -1,0 +1,43 @@
+import java.util.*;
+public class penjumlahan_random
+{
+public static void main(String[]yanuar){
+Scanner sc=new Scanner (System.in);    
+
+int soal;
+int latihan;
+int jawaban;
+int nilai1=0;
+int nilai2=0;
+int nilai=0;
+int count=1;
+int total_nilai=0;
+System.out.print ("masukan jumlah soal  :");
+soal=sc.nextInt();
+ 
+while (count<=soal)
+ {
+   double angka1=Math.random()*10;
+   double angka2=Math.random()*10;
+   
+   latihan=(int)angka1 + (int) angka2;
+   
+   System.out.print (count +"." +" " +(int) angka1 +"+" +(int) angka2 +"=" );
+   jawaban=sc.nextInt();
+   {
+   if (latihan==jawaban)
+     {   
+        nilai1=nilai1+10;
+     } 
+    else
+    {
+      nilai2=0;
+     }
+   }
+   count++;
+   total_nilai=nilai1-nilai2;
+ }
+    System.out.print ("nilai anda  = "+total_nilai); 
+    
+}
+}
