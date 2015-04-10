@@ -1,0 +1,2 @@
+# PERTEMUAN-2
+AAAAA
